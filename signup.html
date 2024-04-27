@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myShoes | Sign-Up</title>
+    <style>
+        
+        span{color: red;}
+        .net2{background-color: white;}
+        .main{
+            background-image: url(Images/login.jpg);
+            background-size: cover;
+            height: 800px;
+        }
+        .net1{color: #0f1111; font-size:25px; font-weight: 700;}
+        input{
+            font-size: 20px;
+            width: 290px;height: 30px;
+            margin-bottom: 20px;
+            background-color: #47d9d9;
+            border-radius: 5px;
+            border-style: none;
+            outline: none;
+        }
+        .log{
+            margin-left: 700px;
+            /* padding-top: 100px; */
+        }
+        input[type="submit"]{cursor: pointer;font-weight: 700;color: #0f1111;}
+        @media screen and (max-width:1040px){
+            .log{margin-left: auto;}
+            .net1{color: white;}
+        }
+    </style>
+</head>
+<div class="main">
+    <body align="center">
+        <form action="login.html" class="log">
+        <br>
+        <h1><span>myShoes</span></h1>
+        <br>
+       <div class="inputs">
+        <span class="net1"> NAME</span><br>
+        <label for="Name" class="net2"></label><br>
+        <input type="text" id="Name" placeholder="Name" required>
+        <br><br>
+        <span class="net1"> EMAIL </span><br>
+        <label for="EMAIL" class="net2"></label><br>
+        <input class="net3" type="email" id="EMAIL" placeholder="eg--@gmail.com" required>
+        <br><br>
+        <span class="net1">PHONE NUMBER </span><br>
+        <label for="PHONE NUMBER" class="net2"></label><br>
+        <input type="number" id="PHONE NUMBER" placeholder="Your Phone Number" required>
+        <br><br>
+        <span class="net1">PASSWORD </span><br>
+        <label for="PASSWORD" class="net2"></label><br>
+        <input type="password" id="PASSWORD" placeholder="Password" required>
+        <br><br>
+       </div>
+        <input type="submit" name="" id="Sign Up" value="Sign Up"" required>
+        <br><br></form>
+       <form action="login.html" class="log">
+        <span class="net1">Already have an account?</span><br><br>
+        <input type="submit" id="Log In" value="Log In"> 
+        <br><br><br>
+       </form>
+    </body>
+</div>
+</html>

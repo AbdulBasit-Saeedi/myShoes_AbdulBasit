@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myShoes | Log-in </title>
+    <style>
+        span{color: red;font-size: 40px;}
+        .net2{background-color: white;}
+        div{
+            background-image: url(Images/login.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            }
+        form{
+            align-items: flex-end;
+        }
+        .net1{color: #0f1111; font-weight: 700;font-size: 25px;}
+        input{
+            font-size: 20px;
+            width: 290px;
+            height: 30px;
+            padding: 5px;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            border-style: none;
+            outline: none;
+        }
+        .log{
+            height: 570px;
+            margin-left: 700px;
+            padding-top: 100px;
+        }
+        input[type="submit"]{cursor: pointer; font-weight: 700;color: #0f1111;}
+        @media screen and (max-width:1040px){
+            .log{margin-left: auto;}
+            .net1{color: white;}
+        }
+    </style>
+</head>
+<div>
+    <body align="center">
+        <form action="index.html" class="log">
+        <br>
+        <h1><span>myShoes</span></h1>
+        <br>
+        <span class="net1"> EMAIL </span><br>
+        <label for="EMAIL" class="net2"></label><br>
+        <input type="email" id="EMAIL" placeholder="eg--@gmail.com" required>
+        <br><br>
+        <span class="net1">PASSWORD </span><br>
+        <label for="PASSWORD" class="net2"></label><br>
+        <input type="password" id="PASSWORD" placeholder="Password" required>
+        <br><br>
+        <input type="submit" id="Log In" value="Log In"> 
+        <br>
+        
+        <br>
+        <br>
+       </form>
+
+    
+
+
+
+
+    </body>
+    
+</div>
+
+</html>
